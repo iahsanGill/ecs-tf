@@ -110,7 +110,7 @@ variable "asg_cpu_target_value" {
   description = ""
   default     = 70
 }
-variable "rds_secred_arn" {
+variable "rds_secret_arn" {
   type        = string
   description = ""
 }

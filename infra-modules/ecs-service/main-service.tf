@@ -42,7 +42,7 @@ resource "aws_ecs_task_definition" "this" {
         },
         {
           name      = "RDS_CREDENTIALS",
-          valueFrom = var.rds_secred_arn
+          valueFrom = var.rds_secret_arn
         }
       ]
       portMappings = [
